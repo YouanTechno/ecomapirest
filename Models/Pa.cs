@@ -1,0 +1,105 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace RestApiEcom.Models
+{
+    public partial class Pa
+    {
+        public string Commune { get; set; }
+        public string Quartiers { get; set; }
+        public string Ilot { get; set; }
+        public string Lot { get; set; }
+        public double? Cntig { get; set; }
+        public string Enquêté { get; set; }
+        public string Enqueteur { get; set; }
+        public string Supervis { get; set; }
+        public string DatePass { get; set; }
+        public string ObsEnq { get; set; }
+        public string Bld { get; set; }
+        public string BldBitum { get; set; }
+        public string Avenue { get; set; }
+        public string AvBitum { get; set; }
+        public string Rue { get; set; }
+        public string RueBitum { get; set; }
+        public string EtatVrie { get; set; }
+        public string NatureLot { get; set; }
+        public string FrBornage { get; set; }
+        public double? Superficie { get; set; }
+        public string Unité { get; set; }
+        public string NLtrAttr { get; set; }
+        public string DateObt { get; set; }
+        public string PermConst { get; set; }
+        public string DatePerm { get; set; }
+        public string DateFinT { get; set; }
+        public string Tf { get; set; }
+        public string OperatIm { get; set; }
+        public string Promoteur { get; set; }
+        public string HtatPrec { get; set; }
+        public string CourComm { get; set; }
+        public string Villa { get; set; }
+        public string Duplex { get; set; }
+        public string Immeuble { get; set; }
+        public string MaisonBde { get; set; }
+        public string Entrepot { get; set; }
+        public string Hangar { get; set; }
+        public string Magasin { get; set; }
+        public string StatEss { get; set; }
+        public string EdifRelig { get; set; }
+        public string SiStaEss { get; set; }
+        public string NbrBouche { get; set; }
+        public double? NbrBat { get; set; }
+        public double? NEtgBat1 { get; set; }
+        public double? NEtgBat2 { get; set; }
+        public double? NEtgBat3 { get; set; }
+        public double? NEtgBat4 { get; set; }
+        public double? NEtgBat5 { get; set; }
+        public double? NEtgBat6 { get; set; }
+        public string Eau { get; set; }
+        public double? CmptEau { get; set; }
+        public string Elect { get; set; }
+        public double? CmptElect { get; set; }
+        public string Habitat { get; set; }
+        public string Commerce { get; set; }
+        public string PrecHc { get; set; }
+        public string HabitComm { get; set; }
+        public string PrecTpCm { get; set; }
+        public string Entrp { get; set; }
+        public string PrecEntrp { get; set; }
+        public string EtabSanit { get; set; }
+        public string PrecSanit { get; set; }
+        public string EtabScol { get; set; }
+        public string PrecScol { get; set; }
+        public string EtabAdmi { get; set; }
+        public string PrecAdmi { get; set; }
+        public string Sprt { get; set; }
+        public string PrecSprt { get; set; }
+        public string Securité { get; set; }
+        public string PrecSecur { get; set; }
+        public string Indus { get; set; }
+        public string PrecIndus { get; set; }
+        public string Trans { get; set; }
+        public string PrecTrans { get; set; }
+        public string EtabCult { get; set; }
+        public string PrecCult { get; set; }
+        public string LCult { get; set; }
+        public string PrecLcult { get; set; }
+        public string ProprPhys { get; set; }
+        public string NomOqpant { get; set; }
+        public string PrénOqpan { get; set; }
+        public string OqptLocat { get; set; }
+        public string AdrOqpt { get; set; }
+        public double? TelOqpt { get; set; }
+        public string NomPropr { get; set; }
+        public string PrénPropr { get; set; }
+        public string ProfPropr { get; set; }
+        public string AdrPropr { get; set; }
+        public double? TelPropr { get; set; }
+        public string NatPropr { get; set; }
+        public string ResidProp { get; set; }
+        public string PersMoral { get; set; }
+        public string RaisonSoc { get; set; }
+        public string NoRegCom { get; set; }
+        public string AdrMoral { get; set; }
+        public string TelMoral { get; set; }
+    }
+}
